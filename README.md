@@ -1,9 +1,15 @@
 # Content-Aware Analysis of Scholarly Networks: A Case Study on CORD19 Dataset
 
+Pleae extract the zip files dataset_paper.json.zip and paper_with_annotation.json.zip.
+
 Run the code by executing the `main.py` file. Creating matrix data from the dataset can take very long time, if you don't want to wait, download from the link below.
+
 Locate the folder in the same directory as the `main.py` file.
+
 For a real reproduction of the results, it is highly recommended to run the code from scratch.
+
 Link: [Matrix](https://drive)
+
 
 ## Overview
 
