@@ -1,6 +1,26 @@
-# Content-Aware Analysis of Scholarly Networks: A Case Study on CORD19 Dataset
 
-Pleae extract the zip files dataset_paper.json.zip and paper_with_annotation.json.zip.
+<br />
+<div align="center">
+  <a href="https://arxiv.org/abs/2411.00262">
+    <img src="photos/icont.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Content-Aware Analysis of Scholarly Networks: A Case Study on CORD19 Dataset
+</h3>
+
+  <p align="center">
+    Hybrid HITS Algorithm for Scholarly Network Analysis in the COVID-19 Domain
+    <br />
+    <a href="https://github.com/mehmetemreakbulut/content-aware-analysis-of-scholarly-networks/tree/master/photos"><strong>Explore the results »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/mehmetemreakbulut/content-aware-analysis-of-scholarly-networks/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/mehmetemreakbulut/content-aware-analysis-of-scholarly-networks/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+Please extract the zip files dataset_paper.json.zip and paper_with_annotation.json.zip.
 
 Run the code by executing the `main.py` file. Creating matrix data from the dataset can take very long time, if you don't want to wait, download from the link below.
 
