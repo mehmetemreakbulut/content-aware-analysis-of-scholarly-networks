@@ -11,7 +11,7 @@
   <p align="center">
     Hybrid HITS Algorithm for Scholarly Network Analysis in the COVID-19 Domain
     <br />
-    <a href="https://github.com/mehmetemreakbulut/content-aware-analysis-of-scholarly-networks/tree/master/photos"><strong>Explore the results »</strong></a>
+    <a href="https://arxiv.org/abs/2411.00262"><strong>Explore the results »</strong></a>
     <br />
     <br />
     <a href="https://github.com/mehmetemreakbulut/content-aware-analysis-of-scholarly-networks/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
