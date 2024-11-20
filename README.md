@@ -1,5 +1,10 @@
 # Content-Aware Analysis of Scholarly Networks: A Case Study on CORD19 Dataset
 
+Run the code by executing the `main.py` file. Creating matrix data from the dataset can take very long time, if you don't want to wait, download from the link below.
+Locate the folder in the same directory as the `main.py` file.
+For a real reproduction of the results, it is highly recommended to run the code from scratch.
+Link: [Matrix](https://drive)
+
 ## Overview
 
 This study investigates scholarly network analysis in the COVID-19 domain using the CORD-19 dataset to explore relationships among articles, researchers, and journals. The paper constructs a heterogeneous network structure, incorporating topic-based semantic information extracted via MedCAT, a medical concept annotation tool. Using a hybrid HITS algorithm, the approach assigns scores based on network structure and topic relationships, integrating semantic data with traditional citation-based metrics.

@@ -399,6 +399,9 @@ except:
     with open('matrix/paper_topics.json', 'w') as f:
         json.dump(paper_topics, f)
 
+
+##PREVIOUS CODE IS JUST TO LOAD THE DATA, THE FOLLOWING CODE IS THE ACTUAL EXPERIMENTS
+##MATRIXES ARE SO BIG SO PLEASE BE PATIENT OR USE THE LINKS PROVIDED IN THE README TO DOWNLOAD THEM
 '''
 results = utils.article_authority_score(citation_weight_adj_matrix, paper_author_adj_matrix, paper_journal_adj_matrix, cuis_adj_matrix, time_difference, article_time_difference, article_years, cites, cited, author_papers, topic_papers, journal_papers, paper_authors, paper_journals, paper_topics,
     alpha=0.0, beta=0.3, gamma = 0.3, delta = 0.1, omega=0.3, sigma=0.0)
@@ -420,6 +423,9 @@ class metric:
     omega: float
     sigma: float
 
+
+#NOT USED IN THE FINAL VERSION
+'''
 
 no_topic_run = metric(alpha = 0.1, beta = 0.2, gamma = 0.2, delta=0.0, omega = 0.2, sigma = 0.1)
 topicLOW_run = metric( alpha=0.1, beta=0.2, gamma = 0.2, delta = 0.1, omega=0.2, sigma=0.1)
@@ -454,6 +460,8 @@ for ev in evaluation:
     np.save('evaluation/'+evaluation_names[evaluation.index(ev)]+'.npy', result)
 
     print("results saved")
+'''
+
 
 
 
